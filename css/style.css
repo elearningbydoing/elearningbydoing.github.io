@@ -1,0 +1,114 @@
+/* Warna Body Background */
+body {
+    background: rgba(120, 162, 226, 0.966);
+}
+
+/* Awal Jumbotron - Home Section */
+.animasi {
+    padding-top: 80px;
+    text-align: center;
+}
+.judul1 {
+    font-family: Rum Raisin;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: auto 38px;
+    color: #000000;
+}
+.btnJelajah {
+    font-family: Arial;
+    font-size: auto 15px;
+    background: #22a4cf;
+    color: white;
+    border-radius: 15px;
+    border-color: #22a4cf49;
+    padding: 9px 9px;
+}
+.responsiveImgMobil {
+    max-width: 73%;
+    min-width: 70%;
+    height: auto;
+}
+
+/*Animasi Zoom Effect - Logo*/
+.zoom-effect:hover .kotak-logo img {
+    -webkit-transform: scale(1.20);
+    transform: scale(1.20);
+}
+.kotak-logo img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    max-width: 70%;
+    height: 150px;
+}
+
+/*Animasi Zoom Effect - Button Jelajah*/
+.zoom-effect:hover .kotak-button-jelajah button {
+    -webkit-transform: scale(1.20);
+    transform: scale(1.20);
+}
+.kotak-button-jelajah button {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    height: auto 690px;
+    max-width: 80%;
+}
+
+/* Animasi Background Jumbotron */
+.jumbotron {
+        position: relative;
+        /* Sumber Gambar - Original Team Deadline */
+        background: url(../images/background.png);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: repeat-x;
+        animation: animate 23s linear infinite;
+}
+@keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+/* Akhir Jumbotron - Home Section */
+
+
+/*Navbar Scroll Color Berubah*/
+.header {
+    transition: 0.6s ease;
+    background-color: #5877bba8;
+}
+.header.active {
+    background-color: #5877bb;
+    transition: 0.6s ease;
+}
+/*Akhir Navbar Scroll Color Berubah*/
+
+/*Design Scroll Bar*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background: #5877bb98;
+}
+/*Akhir Design Scroll Bar*/
+
+
+/*Animasi Zoom Effect - Kotak Games*/
+.zoom-effect:hover .kotak-games img {
+    -webkit-transform: scale(1.20);
+    transform: scale(1.20);
+}
+.kotak-games img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    height: auto 690px;
+    max-width: 80%;
+}
+/*Akhir Animasi Zoom Effect - Kotak Games*/
+

@@ -1,0 +1,29 @@
+﻿{
+	"version"; 1638167368,
+	"fileList"; [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"images/hewan-inggris/sprite-sheet0.png",
+		"images/hewan-inggris/b-sheet0.png",
+		"images/hewan-inggris/a-sheet0.png",
+		"images/hewan-inggris/d-sheet0.png",
+		"images/hewan-inggris/c-sheet0.png",
+		"images/hewan-inggris/t1-sheet0.png",
+		"images/hewan-inggris/t2-sheet0.png",
+		"images/hewan-inggris/sprite2-sheet0.png",
+		"images/hewan-inggris/ch1-sheet0.png",
+		"images/hewan-inggris/cr1-sheet0.png",
+		"images/hewan-inggris/crt1-sheet0.png",
+		"images/hewan-inggris/crt2-sheet0.png",
+		"images/hewan-inggris/crt3-sheet0.png",
+		"images/hewan-inggris/g-sheet0.png",
+		"images/hewan-inggris/goal-sheet0.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
